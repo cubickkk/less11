@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.top__panel {
+    background-color: #ceddf3;
+    justify-content:space-between ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 30px;
+}
+.stl {
+    font-family:"Anta" ;
+    font-size: 24px;
+}
+body {
+    background: rgb(12,12,119);
+    background: linear-gradient(27deg, rgba(12,12,119,1) 8%, rgba(41,175,191,1) 86%);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.user__panel{
+    background-image: linear-gradient(to top left, #e2e8f1, #89a9ca);
+    padding: 15px 40px;
+    display: flex;
+    gap: 30px;
+}
+.pointer {
+ width: 40px;
+ 
+}
+.user__panel-info{
+    align-self: flex-start;
+}
+.user__panel-name {
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.user__panel-nome {
+    font-size: 22px;
+    margin-top: 8px;
+    color: #555;
+}
+.chat {
+    padding: 50px 30px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    background-image: url(images/chat_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.chat-date{
+    background-color: #ceddf3;
+    display: inline;
+    padding: 5px 12px;
+    align-self: center;
+    border-radius: 12px;
+}
+.message {
+    background-color: #a7c92e;
+    padding: 10px 15px;
+    border-radius: 10px;
+    display: flex; flex-direction: column;
+    gap: 10px;
+    max-width: 800px;
+    width:fit-content;
+}
+.message_name {
+    font-weight: 600;
+    font-size: 20px;
+}
+.yellow {
+    color: #f6fa00;
+}
+.message_time {
+    align-self: flex-end;
+    font-weight: 600;
+    color: #89a9ca;
+}
+.orange {
+    color: orange;
+}
